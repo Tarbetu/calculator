@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+
+@media (min-width: 1000px) {
+    body {
+        margin: 0% 30vw;
+        background: #424242;
+        animation-name: addingSpaces;
+        animation-duration: 5s;
+    }
+    #shownValue {
+        border-radius: 10px;
+    }
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: #424242;
+    color: white;
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: 300;
+    align-self: center;
+}
+
+#shownValue {
+    background: gray;
+    color: white;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    line-height: 2;
+    border: 1px solid black;
+}
+
+main {
+    background: #424242;
+    display: grid;
+    grid-template-columns: auto 20%;
+    padding: 10px;
+}
+
+#numbers {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.number {
+    background: #424242;
+    border: 1px solid grey;
+    color: white;
+    font-size: 8vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button:hover {
+    border: 1px solid azure;
+}
+
+.button:active {
+    background: azure !important;
+    color: black;
+}
+
+#operationContainer {
+    display: flex;
+    flex-direction: column;
+} 
+
+.operation {
+    height: 12vh;
+    background: grey;
+    border: 1px solid #424242;
+    font-size: 5vh;
+}
+ 
+#equal {
+    height: 32vh;
+    background: rgba(250,0,100,0.7);
+    border: 1px solid grey;
+    border-bottom-right-radius: 50px;
+}
