@@ -1,11 +1,11 @@
 body {
     margin: 0;
+    background: #424242;
 }
 
 @media (min-width: 1000px) {
     body {
         margin: 0% 30vw;
-        background: #424242;
         animation-name: addingSpaces;
         animation-duration: 5s;
     }
@@ -20,6 +20,7 @@ header {
     background: #424242;
     color: white;
     font-size: 14px;
+    height: 20vh;
 }
 
 h1 {
@@ -30,11 +31,12 @@ h1 {
 #shownValue {
     background: gray;
     color: white;
-    font-size: 40px;
+    font-size: 6vh;
     font-family: 'Open Sans', sans-serif;
     text-align: right;
     line-height: 2;
     border: 1px solid black;
+    height: 100%; 
 }
 
 main {
