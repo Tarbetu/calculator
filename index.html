@@ -16,11 +16,11 @@
     <main>
         <div id="numbers"></div>
         <div id="operationContainer">
-            <button class="operation button" id="addition"><i class="fas fa-plus"></i></button>
-            <button class="operation button" id="extraction"><i class="fas fa-minus"></i></button>
-            <button class="operation button" id="multiplication"><i class="fas fa-times"></i></button>
-            <button class="operation button" id="division"><i class="fas fa-divide"></i></button>
-            <button class="operation button" id="equal"><i class="fas fa-equals"></i></button>
+            <button class="operation button" id="addition" onclick="operate(add)"><i class="fas fa-plus"></i></button>
+            <button class="operation button" id="extraction" onclick="operate(subtract)"><i class="fas fa-minus"></i></button>
+            <button class="operation button" id="multiplication" onclick="operate(multiply)"><i class="fas fa-times"></i></button>
+            <button class="operation button" id="division" onclick="operate(divide)"><i class="fas fa-divide"></i></button>
+            <button class="operation button" id="equal" onclick="operate()"><i class="fas fa-equals"></i></button>
         </div>
     </main>
     <script src="main.js"></script>
